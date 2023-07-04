@@ -2,7 +2,7 @@
   "name": "test1-data",
   "version": "1.0.0",
   "description": "Data for test1",
-  "main": "server.js",
+  "main": "index.js",
   "scripts": {
     "test": "test"
   },
