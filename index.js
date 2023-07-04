@@ -1,13 +1,5 @@
 const express = require('express');
 const app = express();
-const cors = require('cors');
-
-app.use(cors());
-app.use(cors({
-  origin: 'https://test1-data.vercel.app/', // Specify the allowed origin(s) of requests
-  methods: ['GET', 'POST'], // Specify the allowed HTTP methods
-  allowedHeaders: ['Content-Type', 'Authorization'], // Specify the allowed request headers
-}));
 
 app.get('/api', (req, res) => {
     // Read the JSON file
